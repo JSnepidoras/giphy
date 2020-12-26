@@ -1,0 +1,161 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#back {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.block {
+    width: 30%;
+    height: 200px;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    width: 75%;
+    height: 30%;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    height: 20%;
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 5px solid red;
+    background: none;
+}
+
+input::-webkit-input-placeholder {
+    background: none;
+    color: white;
+    border: none;
+}
+
+button {
+    width: 50%;
+    height: 20%;
+    background: black;
+    color: white;
+}
+
+#dota {
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background: none;
+}
+
+#gif {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+iframe {
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin-bottom: 20px;
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+iframe:nth-child(15) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(14) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(13) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(12) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(11) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(10) {
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+iframe:nth-child(9) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(8) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(7) {
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(6) {
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+iframe:nth-child(5) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(4) {
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(3) {
+    margin-left: 20px;
+    margin-right: 330px;
+}
+
+iframe:nth-child(2) {
+    margin-left: 330px;
+    margin-right: 20px;
+}
+
+iframe:nth-child(1) {
+    margin-left: 40%;
+    margin-right: 40%;
+}
